@@ -726,9 +726,11 @@ export class Pet {
   store: API.Store = new API.Store(this);
   user: API.UserResource = new API.UserResource(this);
 }
+
 Pet.PetResource = PetResource;
 Pet.Store = Store;
 Pet.UserResource = UserResource;
+
 export declare namespace Pet {
   export type RequestOptions = Opts.RequestOptions;
 
